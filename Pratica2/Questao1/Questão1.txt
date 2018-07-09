@@ -1,0 +1,1 @@
+Escolhemos o layout circular pois facilita a visualização das arestas (rotas) e vértices (aeroportos) que são mais "centrais" e apresentam maior fluxo, tanto para rotas de saída quanto de chegada, resultando em um grafo esteticamente mais simples de compreender, principalmente quais dos aeroportos (ou grupo de aeroportos) possuem maior fluxo e/ou mais rotas.
