@@ -1,5 +1,7 @@
 1.
+Não, pois o fato da métrica do coeficiente de clustering ser zero é indicativo de que o grafo não possui formação de clusters.
 
+COEFICIENTE DE CLUTERING: 0.0
 
 2.
 As entidades são: Petrobrás, Odebrecht, UTC e Queiroz Galvao, pois o resultado da métrica Betweeness centrality mostra que elas possuem os maiores indices, o que representa que esses vertices possuem a maior quantidade de menores caminhos que passam por eles dentro do grafo, assim sendo as intermediadoras das transações.
