@@ -26,9 +26,9 @@ public class Questao2 {
 	// Main
 	public static void main(String[] args) {
 		Graph<DefaultVertex, RelationshipEdge> graph1;
-		graph1 = importGraph1("/home/whispher/Downloads/Graph.gml");
+		graph1 = importGraph1("/home/thiagoyes/eclipse-workspace/Grafos/Pratica3/Questao2/Graph.gml");
 		Graph<Object, RelationshipEdge> graph2;
-		graph2 = importGraph2("/home/whispher/Downloads/Graph.gml");
+		graph2 = importGraph2("/home/thiagoyes/eclipse-workspace/Grafos/Pratica3/Questao2/Graph.gml");
 		metricasNoGrafo(graph1);
 		cliquesMaximosNoGrafo(graph2);
 	}

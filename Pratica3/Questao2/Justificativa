@@ -1,0 +1,12 @@
+1.
+
+
+2.
+As entidades são: Petrobrás, Odebrecht, UTC e Queiroz Galvao, pois o resultado da métrica Betweeness centrality mostra que elas possuem os maiores indices, o que representa que esses vertices possuem a maior quantidade de menores caminhos que passam por eles dentro do grafo, assim sendo as intermediadoras das transações.
+
+PETROBRÁS: 0,12; ODEBRECHT: 0,11; UTC: 0,10; QUEIROZ GALVAO: 0,10;
+
+3.
+As entidades são: Odebrect, Queiroz Galvao e UTC, pois o resultado da métrica Alpha Centrality mostra que elas possuem os maiores indices, o que representa que esses vertices possuem muitas ligações a outros vertices que tambem possuem muitas conexões.
+
+ODEBRECHT: 358,57; QUEIROZ GALVAO: 336,42; UTC: 328,32;

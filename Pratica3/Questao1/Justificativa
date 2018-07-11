@@ -1,0 +1,2 @@
+Justificativa da questão 1: 
+Utilizando a ferramenta Auto Grouping -> Natural Clusters, o resultado gerado apresenta a formação de dois grupos no qual o vértice que representa a Petrobrás é vertice de corte, pois a quantidade de componentes do grafo trabalhado é maior caso o vertice seja removido deixando o grafo desconectado.
