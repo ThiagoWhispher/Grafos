@@ -1,0 +1,11 @@
+#Passo para adição de vertices (nos)
+
+load csv with headers from "file:///Teia-nodes.csv" as csv
+create (p:Entidade {name:csv.Name, type:csv.Type})
+
+#Passo para adição de arestas (relações)
+
+load csv with headers from "file:///Teia-relations.csv" as csv
+match (source: Entidade{name:csv.Source})
+match (target: Entidade{name:csv.Target})
+create (source)-[:Pagamento_para {amount: csv.Amount, description: csv.Description}] -> (target)
